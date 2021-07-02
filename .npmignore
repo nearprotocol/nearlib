@@ -1,6 +1,0 @@
-storage
-node_modules
-
-# near-api-js files & coverage
-neardev/
-coverage/
