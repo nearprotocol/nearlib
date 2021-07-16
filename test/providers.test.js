@@ -76,6 +76,27 @@ test('txStatus with string hash and buffer hash', withProvider(async(provider) =
     expect(responseWithUint8Array).toMatchObject(outcome);
 }));
 
+test('json rpc query with blockId', withProvider(async(provider) => {
+    const stat = await provider.status();
+    let blockId = stat.sync_info.latest_block_height - 1;
+
+    const response = await provider.query({
+        blockId,
+        request_type: 'view_account',
+        account_id: 'test.near'
+    });
+
+    expect(response).toEqual({
+        block_height: expect.any(Number),
+        block_hash: expect.any(String),
+        amount: expect.any(String),
+        locked: expect.any(String),
+        code_hash: '11111111111111111111111111111111',
+        storage_usage: 182,
+        storage_paid_at: 0,
+    });
+}));
+
 test('json rpc query account', withProvider(async (provider) => {
     const near = await testUtils.setUpTestConnection();
     const account = await testUtils.createAccount(near);

@@ -135,7 +135,7 @@ export class JsonRpcProvider extends Provider {
     async query<T extends QueryResponseKind>(...args: any[]): Promise<T> {
         let result;
         if (args.length === 1) {
-            result = await this.sendJsonRpc<T>('query', args[0]);
+            result = await this.sendJsonRpc<T>('query', { ...args[0], block_id: args[0].blockId });
         } else {
             const [path, data] = args;
             result = await this.sendJsonRpc<T>('query', [path, data]);
