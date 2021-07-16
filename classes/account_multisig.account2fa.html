@@ -1,0 +1,1570 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Account2FA | near-api-js</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+	<script async src="../assets/js/search.js" id="search-script"></script>
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.json" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<ul class="results-priority" style="display:none">
+					</ul>
+					<a href="../index.html" class="title">near-api-js</a>
+					&emsp;<a href="https://docs.near.org" class="title">NEAR Docs</a>
+					&emsp;<a href="https://docs.near.org/docs/develop/front-end/naj-quick-reference" class="title">API JS Quick Reference</a>
+					&emsp;<a href="https://docs.near.org/docs/develop/front-end/rpc" class="title">RPC Endpoints</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../modules/account_multisig.html">account_multisig</a>
+				</li>
+				<li>
+					<a href="account_multisig.account2fa.html">Account2FA</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-3 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation outline primary">
+				<a style="margin-left:0em" href="../modules.html">Modules</a>
+				<ul style="display:none">
+					{&quot;Connect to NEAR&quot;:{&quot;browser&quot;:&quot;browserconnect&quot;,&quot;node.js&quot;:&quot;connect&quot;},&quot;Managing Accounts&quot;:{&quot;Account&quot;:&quot;classes/account.account-1&quot;,&quot;Wallet Account&quot;:&quot;classes/walletaccount.walletconnection&quot;,&quot;Smart Contracts&quot;:&quot;classes/contract.contract-1&quot;},&quot;Managing Keys&quot;:{&quot;KeyPair&quot;:&quot;utils_key_pair&quot;,&quot;BrowserLocalStorageKeyStore&quot;:&quot;classes/key_stores_browser_local_storage_key_store.browserlocalstoragekeystore&quot;,&quot;InMemoryKeyStore&quot;:&quot;classes/key_stores_in_memory_key_store.inmemorykeystore&quot;,&quot;UnencryptedFileSystemKeyStore&quot;:&quot;classes/key_stores_unencrypted_file_system_keystore.unencryptedfilesystemkeystore&quot;,&quot;MergeKeyStore&quot;:&quot;classes/key_stores_merge_key_store.mergekeystore&quot;},&quot;RPC&quot;:{&quot;Request and Response Types&quot;:&quot;providers_provider&quot;,&quot;Client&quot;:&quot;classes/providers_json_rpc_provider.jsonrpcprovider&quot;},&quot;utils&quot;:{&quot;Formatting&quot;:&quot;utils_format&quot;}}
+				</ul>
+			</nav>
+		</div>
+		<div class="col-7 offset-3 col-content">
+			<h1>Class Account2FA</h1>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="account_multisig.accountmultisig.html" class="tsd-signature-type">AccountMultisig</a>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">Account2FA</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite"><a href="account_multisig.account2fa.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#accountid" class="tsd-kind-icon">account<wbr>Id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#connection" class="tsd-kind-icon">connection</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="account_multisig.account2fa.html#getcode" class="tsd-kind-icon">get<wbr>Code</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="account_multisig.account2fa.html#helperurl" class="tsd-kind-icon">helper<wbr>Url</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#onaddrequestresult" class="tsd-kind-icon">on<wbr>Add<wbr>Request<wbr>Result</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="account_multisig.account2fa.html#onconfirmresult" class="tsd-kind-icon">on<wbr>Confirm<wbr>Result</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="account_multisig.account2fa.html#sendcode" class="tsd-kind-icon">send<wbr>Code</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#storage" class="tsd-kind-icon">storage</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="account_multisig.account2fa.html#verifycode" class="tsd-kind-icon">verify<wbr>Code</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="account_multisig.account2fa.html#__signandsendtransaction" class="tsd-kind-icon">__sign<wbr>And<wbr>Send<wbr>Transaction</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#addkey" class="tsd-kind-icon">add<wbr>Key</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#createaccount" class="tsd-kind-icon">create<wbr>Account</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#createanddeploycontract" class="tsd-kind-icon">create<wbr>And<wbr>Deploy<wbr>Contract</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#deleteaccount" class="tsd-kind-icon">delete<wbr>Account</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#deletekey" class="tsd-kind-icon">delete<wbr>Key</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#deleteunconfirmedrequests" class="tsd-kind-icon">delete<wbr>Unconfirmed<wbr>Requests</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#deploycontract" class="tsd-kind-icon">deploy<wbr>Contract</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="account_multisig.account2fa.html#deploymultisig" class="tsd-kind-icon">deploy<wbr>Multisig</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="account_multisig.account2fa.html#disable" class="tsd-kind-icon">disable</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#fetchstate" class="tsd-kind-icon">fetch<wbr>State</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#findaccesskey" class="tsd-kind-icon">find<wbr>Access<wbr>Key</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#functioncall" class="tsd-kind-icon">function<wbr>Call</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="account_multisig.account2fa.html#get2famethod" class="tsd-kind-icon">get2fa<wbr>Method</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#getaccesskeys" class="tsd-kind-icon">get<wbr>Access<wbr>Keys</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#getaccountbalance" class="tsd-kind-icon">get<wbr>Account<wbr>Balance</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#getaccountdetails" class="tsd-kind-icon">get<wbr>Account<wbr>Details</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="account_multisig.account2fa.html#getcodedefault" class="tsd-kind-icon">get<wbr>Code<wbr>Default</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="account_multisig.account2fa.html#getrecoverymethods" class="tsd-kind-icon">get<wbr>Recovery<wbr>Methods</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#getrequest" class="tsd-kind-icon">get<wbr>Request</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#getrequestids" class="tsd-kind-icon">get<wbr>Request<wbr>Ids</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="account_multisig.account2fa.html#postsignedjson" class="tsd-kind-icon">post<wbr>Signed<wbr>Json</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="account_multisig.account2fa.html#promptandverify" class="tsd-kind-icon">prompt<wbr>And<wbr>Verify</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="account_multisig.account2fa.html#sendcodedefault" class="tsd-kind-icon">send<wbr>Code<wbr>Default</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#sendmoney" class="tsd-kind-icon">send<wbr>Money</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#setrequest" class="tsd-kind-icon">set<wbr>Request</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite"><a href="account_multisig.account2fa.html#signandsendtransaction" class="tsd-kind-icon">sign<wbr>And<wbr>Send<wbr>Transaction</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#signandsendtransactionwithaccount" class="tsd-kind-icon">sign<wbr>And<wbr>Send<wbr>Transaction<wbr>With<wbr>Account</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected"><a href="account_multisig.account2fa.html#signtransaction" class="tsd-kind-icon">sign<wbr>Transaction</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="account_multisig.account2fa.html#signaturefor" class="tsd-kind-icon">signature<wbr>For</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#stake" class="tsd-kind-icon">stake</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#state" class="tsd-kind-icon">state</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="account_multisig.account2fa.html#verifycodedefault" class="tsd-kind-icon">verify<wbr>Code<wbr>Default</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#viewfunction" class="tsd-kind-icon">view<wbr>Function</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="account_multisig.account2fa.html#viewstate" class="tsd-kind-icon">view<wbr>State</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Account2FA<span class="tsd-signature-symbol">(</span>connection<span class="tsd-signature-symbol">: </span><a href="connection.connection-1.html" class="tsd-signature-type">Connection</a>, accountId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, options<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="account_multisig.account2fa.html" class="tsd-signature-type">Account2FA</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#constructor">constructor</a></p>
+								<ul>
+									<li>Defined in src/account_multisig.ts:158</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>connection: <a href="connection.connection-1.html" class="tsd-signature-type">Connection</a></h5>
+								</li>
+								<li>
+									<h5>accountId: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>options: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="account_multisig.account2fa.html" class="tsd-signature-type">Account2FA</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="accountid" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> account<wbr>Id</h3>
+					<div class="tsd-signature tsd-kind-icon">account<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#accountid">accountId</a></p>
+						<ul>
+							<li>Defined in src/account.ts:118</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="connection" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> connection</h3>
+					<div class="tsd-signature tsd-kind-icon">connection<span class="tsd-signature-symbol">:</span> <a href="connection.connection-1.html" class="tsd-signature-type">Connection</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#connection">connection</a></p>
+						<ul>
+							<li>Defined in src/account.ts:117</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="getcode" class="tsd-anchor"></a>
+					<h3>get<wbr>Code</h3>
+					<div class="tsd-signature tsd-kind-icon">get<wbr>Code<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">getCodeFunction</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in src/account_multisig.ts:155</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="helperurl" class="tsd-anchor"></a>
+					<h3>helper<wbr>Url</h3>
+					<div class="tsd-signature tsd-kind-icon">helper<wbr>Url<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> = &#x27;https://helper.testnet.near.org&#x27;</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in src/account_multisig.ts:158</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="onaddrequestresult" class="tsd-anchor"></a>
+					<h3>on<wbr>Add<wbr>Request<wbr>Result</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Add<wbr>Request<wbr>Result<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Function</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#onaddrequestresult">onAddRequestResult</a></p>
+						<ul>
+							<li>Defined in src/account_multisig.ts:33</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="onconfirmresult" class="tsd-anchor"></a>
+					<h3>on<wbr>Confirm<wbr>Result</h3>
+					<div class="tsd-signature tsd-kind-icon">on<wbr>Confirm<wbr>Result<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Function</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in src/account_multisig.ts:157</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="sendcode" class="tsd-anchor"></a>
+					<h3>send<wbr>Code</h3>
+					<div class="tsd-signature tsd-kind-icon">send<wbr>Code<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">sendCodeFunction</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in src/account_multisig.ts:154</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+						<div class="lead">
+							<p>Account2FA has options object where you can provide callbacks for:</p>
+							<ul>
+								<li>sendCode: how to send the 2FA code in case you don&#39;t use NEAR Contract Helper</li>
+								<li>getCode: how to get code from user (use this to provide custom UI/UX for prompt of 2FA code)</li>
+								<li>onResult: the tx result after it&#39;s been confirmed by NEAR Contract Helper</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="storage" class="tsd-anchor"></a>
+					<h3>storage</h3>
+					<div class="tsd-signature tsd-kind-icon">storage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#storage">storage</a></p>
+						<ul>
+							<li>Defined in src/account_multisig.ts:32</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="verifycode" class="tsd-anchor"></a>
+					<h3>verify<wbr>Code</h3>
+					<div class="tsd-signature tsd-kind-icon">verify<wbr>Code<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">verifyCodeFunction</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in src/account_multisig.ts:156</li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="__signandsendtransaction" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> __sign<wbr>And<wbr>Send<wbr>Transaction</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">__sign<wbr>And<wbr>Send<wbr>Transaction<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">: </span><a href="../interfaces/account.signandsendtransactionoptions.html" class="tsd-signature-type">SignAndSendTransactionOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in src/account_multisig.ts:194</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>__namedParameters: <a href="../interfaces/account.signandsendtransactionoptions.html" class="tsd-signature-type">SignAndSendTransactionOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="addkey" class="tsd-anchor"></a>
+					<h3>add<wbr>Key</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Key<span class="tsd-signature-symbol">(</span>publicKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="utils_key_pair.publickey.html" class="tsd-signature-type">PublicKey</a>, contractId<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span>, methodNames<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span>, amount<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">BN</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#addkey">addKey</a></p>
+								<ul>
+									<li>Defined in src/account.ts:435</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>see</dt>
+									<dd><p><a href="https://docs.near.org/docs/concepts/account#access-keys" class="external">https://docs.near.org/docs/concepts/account#access-keys</a></p>
+									</dd><dt>todo</dt>
+									<dd><p>expand this API to support more options.</p>
+								</dd></dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>publicKey: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="utils_key_pair.publickey.html" class="tsd-signature-type">PublicKey</a></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>A public key to be associated with the contract</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> contractId: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>NEAR account where the contract is deployed</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> methodNames: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>The method names on the contract that should be allowed to be called. Pass null for no method names and &#39;&#39; or [] for any method names.</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> amount: <span class="tsd-signature-type">BN</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>Payment in yoctoⓃ that is sent to the contract during this function call</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="createaccount" class="tsd-anchor"></a>
+					<h3>create<wbr>Account</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Account<span class="tsd-signature-symbol">(</span>newAccountId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, publicKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="utils_key_pair.publickey.html" class="tsd-signature-type">PublicKey</a>, amount<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BN</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#createaccount">createAccount</a></p>
+								<ul>
+									<li>Defined in src/account.ts:356</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>newAccountId: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>NEAR account name to be created</p>
+									</div>
+								</li>
+								<li>
+									<h5>publicKey: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="utils_key_pair.publickey.html" class="tsd-signature-type">PublicKey</a></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>A public key created from the masterAccount</p>
+									</div>
+								</li>
+								<li>
+									<h5>amount: <span class="tsd-signature-type">BN</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="createanddeploycontract" class="tsd-anchor"></a>
+					<h3>create<wbr>And<wbr>Deploy<wbr>Contract</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>And<wbr>Deploy<wbr>Contract<span class="tsd-signature-symbol">(</span>contractId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, publicKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="utils_key_pair.publickey.html" class="tsd-signature-type">PublicKey</a>, data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span>, amount<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BN</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="account.account-1.html" class="tsd-signature-type">Account</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#createanddeploycontract">createAndDeployContract</a></p>
+								<ul>
+									<li>Defined in src/account.ts:331</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Create a new account and deploy a contract to it</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>contractId: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>NEAR account where the contract is deployed</p>
+									</div>
+								</li>
+								<li>
+									<h5>publicKey: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="utils_key_pair.publickey.html" class="tsd-signature-type">PublicKey</a></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>The public key to add to the created contract account</p>
+									</div>
+								</li>
+								<li>
+									<h5>data: <span class="tsd-signature-type">Uint8Array</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>The compiled contract code</p>
+									</div>
+								</li>
+								<li>
+									<h5>amount: <span class="tsd-signature-type">BN</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>of NEAR to transfer to the created contract account. Transfer enough to pay for storage <a href="https://docs.near.org/docs/concepts/storage-staking">https://docs.near.org/docs/concepts/storage-staking</a></p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="account.account-1.html" class="tsd-signature-type">Account</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="deleteaccount" class="tsd-anchor"></a>
+					<h3>delete<wbr>Account</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">delete<wbr>Account<span class="tsd-signature-symbol">(</span>beneficiaryId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#deleteaccount">deleteAccount</a></p>
+								<ul>
+									<li>Defined in src/account.ts:367</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>beneficiaryId: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>The NEAR account that will receive the remaining Ⓝ balance from the account being deleted</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="deletekey" class="tsd-anchor"></a>
+					<h3>delete<wbr>Key</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">delete<wbr>Key<span class="tsd-signature-symbol">(</span>publicKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="utils_key_pair.publickey.html" class="tsd-signature-type">PublicKey</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#deletekey">deleteKey</a></p>
+								<ul>
+									<li>Defined in src/account.ts:458</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>publicKey: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="utils_key_pair.publickey.html" class="tsd-signature-type">PublicKey</a></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>The public key to be deleted</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="deleteunconfirmedrequests" class="tsd-anchor"></a>
+					<h3>delete<wbr>Unconfirmed<wbr>Requests</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">delete<wbr>Unconfirmed<wbr>Requests<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#deleteunconfirmedrequests">deleteUnconfirmedRequests</a></p>
+								<ul>
+									<li>Defined in src/account_multisig.ts:104</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="deploycontract" class="tsd-anchor"></a>
+					<h3>deploy<wbr>Contract</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">deploy<wbr>Contract<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#deploycontract">deployContract</a></p>
+								<ul>
+									<li>Defined in src/account.ts:377</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>data: <span class="tsd-signature-type">Uint8Array</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>The compiled contract code</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="deploymultisig" class="tsd-anchor"></a>
+					<h3>deploy<wbr>Multisig</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">deploy<wbr>Multisig<span class="tsd-signature-symbol">(</span>contractBytes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in src/account_multisig.ts:207</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>contractBytes: <span class="tsd-signature-type">Uint8Array</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="disable" class="tsd-anchor"></a>
+					<h3>disable</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">disable<span class="tsd-signature-symbol">(</span>contractBytes<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in src/account_multisig.ts:236</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>contractBytes: <span class="tsd-signature-type">Uint8Array</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="fetchstate" class="tsd-anchor"></a>
+					<h3>fetch<wbr>State</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">fetch<wbr>State<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#fetchstate">fetchState</a></p>
+								<ul>
+									<li>Defined in src/account.ts:132</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="findaccesskey" class="tsd-anchor"></a>
+					<h3>find<wbr>Access<wbr>Key</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Access<wbr>Key<span class="tsd-signature-symbol">(</span>receiverId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, actions<span class="tsd-signature-symbol">: </span><a href="transaction.action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#findaccesskey">findAccessKey</a></p>
+								<ul>
+									<li>Defined in src/account.ts:284</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Finds the <a href="../interfaces/providers_provider.accesskeyview.html">AccessKeyView</a> associated with the accounts <a href="utils_key_pair.publickey.html">PublicKey</a> stored in the <a href="key_stores_keystore.keystore.html">KeyStore</a>.</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>todo</dt>
+									<dd><p>Find matching access key based on transaction (i.e. receiverId and actions)</p>
+								</dd></dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>receiverId: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>currently unused (see todo)</p>
+									</div>
+								</li>
+								<li>
+									<h5>actions: <a href="transaction.action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol">[]</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>currently unused (see todo)</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<p><code>{ publicKey PublicKey; accessKey: AccessKeyView }</code></p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="functioncall" class="tsd-anchor"></a>
+					<h3>function<wbr>Call</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">function<wbr>Call<span class="tsd-signature-symbol">(</span>props<span class="tsd-signature-symbol">: </span><a href="../interfaces/account.functioncalloptions.html" class="tsd-signature-type">FunctionCallOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">function<wbr>Call<span class="tsd-signature-symbol">(</span>contractId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, methodName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, gas<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">BN</span>, amount<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">BN</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#functioncall">functionCall</a></p>
+								<ul>
+									<li>Defined in src/account.ts:384</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>props: <a href="../interfaces/account.functioncalloptions.html" class="tsd-signature-type">FunctionCallOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#functioncall">functionCall</a></p>
+								<ul>
+									<li>Defined in src/account.ts:396</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>deprecated</dt>
+								<dd></dd></dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>contractId: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>NEAR account where the contract is deployed</p>
+									</div>
+								</li>
+								<li>
+									<h5>methodName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>The method name on the contract as it is written in the contract code</p>
+									</div>
+								</li>
+								<li>
+									<h5>args: <span class="tsd-signature-type">any</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>arguments to pass to method. Can be either plain JS object which gets serialized as JSON automatically
+										or <code>Uint8Array</code> instance which represents bytes passed as is.</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> gas: <span class="tsd-signature-type">BN</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>max amount of gas that method call can use</p>
+									</div>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> amount: <span class="tsd-signature-type">BN</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>amount of NEAR (in yoctoNEAR) to send together with the call</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="get2famethod" class="tsd-anchor"></a>
+					<h3>get2fa<wbr>Method</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get2fa<wbr>Method<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in src/account_multisig.ts:317</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getaccesskeys" class="tsd-anchor"></a>
+					<h3>get<wbr>Access<wbr>Keys</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Access<wbr>Keys<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.accesskeyinfoview.html" class="tsd-signature-type">AccessKeyInfoView</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#getaccesskeys">getAccessKeys</a></p>
+								<ul>
+									<li>Defined in src/account.ts:548</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Get all access keys for the account</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>see</dt>
+									<dd><p><a href="https://docs.near.org/docs/develop/front-end/rpc#view-access-key-list" class="external">https://docs.near.org/docs/develop/front-end/rpc#view-access-key-list</a></p>
+								</dd></dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.accesskeyinfoview.html" class="tsd-signature-type">AccessKeyInfoView</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getaccountbalance" class="tsd-anchor"></a>
+					<h3>get<wbr>Account<wbr>Balance</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Account<wbr>Balance<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/account.accountbalance.html" class="tsd-signature-type">AccountBalance</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#getaccountbalance">getAccountBalance</a></p>
+								<ul>
+									<li>Defined in src/account.ts:587</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Returns calculated account balance</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/account.accountbalance.html" class="tsd-signature-type">AccountBalance</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getaccountdetails" class="tsd-anchor"></a>
+					<h3>get<wbr>Account<wbr>Details</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Account<wbr>Details<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#getaccountdetails">getAccountDetails</a></p>
+								<ul>
+									<li>Defined in src/account.ts:567</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Returns a list of authorized apps</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>todo</dt>
+									<dd><p>update the response value to return all the different keys, not just app keys.</p>
+								</dd></dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getcodedefault" class="tsd-anchor"></a>
+					<h3>get<wbr>Code<wbr>Default</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Code<wbr>Default<span class="tsd-signature-symbol">(</span>method<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in src/account_multisig.ts:273</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>method: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getrecoverymethods" class="tsd-anchor"></a>
+					<h3>get<wbr>Recovery<wbr>Methods</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Recovery<wbr>Methods<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in src/account_multisig.ts:309</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getrequest" class="tsd-anchor"></a>
+					<h3>get<wbr>Request</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Request<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#getrequest">getRequest</a></p>
+								<ul>
+									<li>Defined in src/account_multisig.ts:132</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getrequestids" class="tsd-anchor"></a>
+					<h3>get<wbr>Request<wbr>Ids</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Request<wbr>Ids<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#getrequestids">getRequestIds</a></p>
+								<ul>
+									<li>Defined in src/account_multisig.ts:126</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="postsignedjson" class="tsd-anchor"></a>
+					<h3>post<wbr>Signed<wbr>Json</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">post<wbr>Signed<wbr>Json<span class="tsd-signature-symbol">(</span>path<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, body<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in src/account_multisig.ts:336</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>path: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>body: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="promptandverify" class="tsd-anchor"></a>
+					<h3>prompt<wbr>And<wbr>Verify</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">prompt<wbr>And<wbr>Verify<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in src/account_multisig.ts:277</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="sendcodedefault" class="tsd-anchor"></a>
+					<h3>send<wbr>Code<wbr>Default</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">send<wbr>Code<wbr>Default<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in src/account_multisig.ts:261</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="sendmoney" class="tsd-anchor"></a>
+					<h3>send<wbr>Money</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">send<wbr>Money<span class="tsd-signature-symbol">(</span>receiverId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, amount<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BN</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#sendmoney">sendMoney</a></p>
+								<ul>
+									<li>Defined in src/account.ts:345</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>receiverId: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>NEAR account receiving Ⓝ</p>
+									</div>
+								</li>
+								<li>
+									<h5>amount: <span class="tsd-signature-type">BN</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>Amount to send in yoctoⓃ</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="setrequest" class="tsd-anchor"></a>
+					<h3>set<wbr>Request</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Request<span class="tsd-signature-symbol">(</span>data<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#setrequest">setRequest</a></p>
+								<ul>
+									<li>Defined in src/account_multisig.ts:139</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>data: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+					<a name="signandsendtransaction" class="tsd-anchor"></a>
+					<h3>sign<wbr>And<wbr>Send<wbr>Transaction</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+						<li class="tsd-signature tsd-kind-icon">sign<wbr>And<wbr>Send<wbr>Transaction<span class="tsd-signature-symbol">(</span>__namedParameters<span class="tsd-signature-symbol">: </span><a href="../interfaces/account.signandsendtransactionoptions.html" class="tsd-signature-type">SignAndSendTransactionOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">sign<wbr>And<wbr>Send<wbr>Transaction<span class="tsd-signature-symbol">(</span>receiverId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, actions<span class="tsd-signature-symbol">: </span><a href="transaction.action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#signandsendtransaction">signAndSendTransaction</a></p>
+								<ul>
+									<li>Defined in src/account_multisig.ts:174</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Sign a transaction to preform a list of actions and broadcast it using the RPC API.</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>see</dt>
+									<dd><p><a href="providers_json_rpc_provider.jsonrpcprovider.html#sendtransaction">JsonRpcProvider.sendTransaction</a></p>
+								</dd></dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>__namedParameters: <a href="../interfaces/account.signandsendtransactionoptions.html" class="tsd-signature-type">SignAndSendTransactionOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Overrides AccountMultisig.signAndSendTransaction</p>
+								<ul>
+									<li>Defined in src/account_multisig.ts:183</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>deprecated</dt>
+									<dd><p>Sign a transaction to preform a list of actions and broadcast it using the RPC API.</p>
+									</dd><dt>see</dt>
+									<dd><p><a href="providers_json_rpc_provider.jsonrpcprovider.html#sendtransaction">JsonRpcProvider.sendTransaction</a></p>
+								</dd></dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>receiverId: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>NEAR account receiving the transaction</p>
+									</div>
+								</li>
+								<li>
+									<h5>actions: <a href="transaction.action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol">[]</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>list of actions to perform as part of the transaction</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="signandsendtransactionwithaccount" class="tsd-anchor"></a>
+					<h3>sign<wbr>And<wbr>Send<wbr>Transaction<wbr>With<wbr>Account</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">sign<wbr>And<wbr>Send<wbr>Transaction<wbr>With<wbr>Account<span class="tsd-signature-symbol">(</span>receiverId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, actions<span class="tsd-signature-symbol">: </span><a href="transaction.action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#signandsendtransactionwithaccount">signAndSendTransactionWithAccount</a></p>
+								<ul>
+									<li>Defined in src/account_multisig.ts:41</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>receiverId: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>actions: <a href="transaction.action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+					<a name="signtransaction" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> sign<wbr>Transaction</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">sign<wbr>Transaction<span class="tsd-signature-symbol">(</span>receiverId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, actions<span class="tsd-signature-symbol">: </span><a href="transaction.action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">, </span><a href="transaction.signedtransaction.html" class="tsd-signature-type">SignedTransaction</a><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#signtransaction">signTransaction</a></p>
+								<ul>
+									<li>Defined in src/account.ts:173</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Create a signed transaction which can be broadcast to the network</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>see</dt>
+									<dd><p><a href="providers_json_rpc_provider.jsonrpcprovider.html#sendtransaction">JsonRpcProvider.sendTransaction</a></p>
+								</dd></dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>receiverId: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>NEAR account receiving the transaction</p>
+									</div>
+								</li>
+								<li>
+									<h5>actions: <a href="transaction.action.html" class="tsd-signature-type">Action</a><span class="tsd-signature-symbol">[]</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>list of actions to perform as part of the transaction</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">, </span><a href="transaction.signedtransaction.html" class="tsd-signature-type">SignedTransaction</a><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="signaturefor" class="tsd-anchor"></a>
+					<h3>signature<wbr>For</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">signature<wbr>For<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in src/account_multisig.ts:327</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="stake" class="tsd-anchor"></a>
+					<h3>stake</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">stake<span class="tsd-signature-symbol">(</span>publicKey<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="utils_key_pair.publickey.html" class="tsd-signature-type">PublicKey</a>, amount<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BN</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#stake">stake</a></p>
+								<ul>
+									<li>Defined in src/account.ts:471</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>see</dt>
+									<dd><p><a href="https://docs.near.org/docs/validator/staking-overview" class="external">https://docs.near.org/docs/validator/staking-overview</a></p>
+								</dd></dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>publicKey: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><a href="utils_key_pair.publickey.html" class="tsd-signature-type">PublicKey</a></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>The public key for the account that&#39;s staking</p>
+									</div>
+								</li>
+								<li>
+									<h5>amount: <span class="tsd-signature-type">BN</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>The account to stake in yoctoⓃ</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.finalexecutionoutcome.html" class="tsd-signature-type">FinalExecutionOutcome</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="state" class="tsd-anchor"></a>
+					<h3>state</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">state<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.accountview.html" class="tsd-signature-type">AccountView</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#state">state</a></p>
+								<ul>
+									<li>Defined in src/account.ts:141</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Returns basic NEAR account information via the <code>view_account</code> RPC query method</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>see</dt>
+									<dd><p><a href="https://docs.near.org/docs/develop/front-end/rpc#view-account" class="external">https://docs.near.org/docs/develop/front-end/rpc#view-account</a></p>
+								</dd></dl>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/providers_provider.accountview.html" class="tsd-signature-type">AccountView</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="verifycodedefault" class="tsd-anchor"></a>
+					<h3>verify<wbr>Code<wbr>Default</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">verify<wbr>Code<wbr>Default<span class="tsd-signature-symbol">(</span>securityCode<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in src/account_multisig.ts:295</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>securityCode: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="viewfunction" class="tsd-anchor"></a>
+					<h3>view<wbr>Function</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">view<wbr>Function<span class="tsd-signature-symbol">(</span>contractId<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, methodName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, args<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span>, __namedParameters<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#viewfunction">viewFunction</a></p>
+								<ul>
+									<li>Defined in src/account.ts:499</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Invoke a contract view function using the RPC API.</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>see</dt>
+									<dd><p><a href="https://docs.near.org/docs/develop/front-end/rpc#call-a-contract-function" class="external">https://docs.near.org/docs/develop/front-end/rpc#call-a-contract-function</a></p>
+								</dd></dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>contractId: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>NEAR account where the contract is deployed</p>
+									</div>
+								</li>
+								<li>
+									<h5>methodName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>The view-only method (no state mutations) name on the contract as it is written in the contract code</p>
+									</div>
+								</li>
+								<li>
+									<h5>args: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol"> = {}</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>Any arguments to the view contract method, wrapped in JSON</p>
+									</div>
+								</li>
+								<li>
+									<h5>__namedParameters: <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> = {}</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5>parse<span class="tsd-signature-symbol">: </span>function</h5>
+											<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon">parse<span class="tsd-signature-symbol">(</span>response<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Uint8Array</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<aside class="tsd-sources">
+														<ul>
+															<li>Defined in src/account.ts:105</li>
+														</ul>
+													</aside>
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>response: <span class="tsd-signature-type">Uint8Array</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+												</li>
+										</ul>        </li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="viewstate" class="tsd-anchor"></a>
+					<h3>view<wbr>State</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">view<wbr>State<span class="tsd-signature-symbol">(</span>prefix<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span>, blockQuery<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="account_multisig.accountmultisig.html">AccountMultisig</a>.<a href="account_multisig.accountmultisig.html#viewstate">viewState</a></p>
+								<ul>
+									<li>Defined in src/account.ts:530</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography tsd-comment-shorttext">
+								<div class="lead">
+									<p>Returns the state (key value pairs) of this account&#39;s contract based on the key prefix.
+									Pass an empty string for prefix if you would like to return the entire state.</p>
+								</div>
+								</div><div class="tsd-comment tsd-typography tsd-comment-tags">
+								<dl class="tsd-comment-tags"><dt>see</dt>
+									<dd><p><a href="https://docs.near.org/docs/develop/front-end/rpc#view-contract-state" class="external">https://docs.near.org/docs/develop/front-end/rpc#view-contract-state</a></p>
+								</dd></dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>prefix: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Uint8Array</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>allows to filter which keys should be returned. Empty prefix means all keys. String prefix is utf-8 encoded.</p>
+									</div>
+								</li>
+								<li>
+									<h5>blockQuery: <span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol"> = ...</span></h5>
+									<div class="tsd-comment tsd-typography tsd-comment-text">
+										<p>specifies which block to query state at. By default returns last &quot;optimistic&quot; block (i.e. not necessarily finalized).</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<!--{&quot;options&quot;:&quot;/home/runner/work/near-api-js/near-api-js&quot;,&quot;tsconfig&quot;:&quot;/home/runner/work/near-api-js/near-api-js&quot;,&quot;entryPoints&quot;:[&quot;src&quot;],&quot;exclude&quot;:[&quot;**/*index.ts&quot;],&quot;externalPattern&quot;:[&quot;**/node_modules/**&quot;],&quot;excludeExternals&quot;:false,&quot;excludeNotDocumented&quot;:false,&quot;excludeInternal&quot;:false,&quot;excludePrivate&quot;:false,&quot;excludeProtected&quot;:false,&quot;disableSources&quot;:false,&quot;includes&quot;:&quot;&quot;,&quot;media&quot;:&quot;&quot;,&quot;watch&quot;:false,&quot;preserveWatchOutput&quot;:false,&quot;emit&quot;:false,&quot;out&quot;:&quot;&quot;,&quot;json&quot;:&quot;&quot;,&quot;pretty&quot;:true,&quot;theme&quot;:&quot;./node_modules/typedoc-neo-theme/bin/default&quot;,&quot;highlightTheme&quot;:&quot;light-plus&quot;,&quot;name&quot;:&quot;&quot;,&quot;includeVersion&quot;:false,&quot;excludeTags&quot;:[],&quot;readme&quot;:&quot;&quot;,&quot;defaultCategory&quot;:&quot;Other&quot;,&quot;categoryOrder&quot;:[],&quot;categorizeByGroup&quot;:true,&quot;gitRevision&quot;:&quot;&quot;,&quot;gitRemote&quot;:&quot;origin&quot;,&quot;gaID&quot;:&quot;&quot;,&quot;gaSite&quot;:&quot;auto&quot;,&quot;hideGenerator&quot;:false,&quot;toc&quot;:[],&quot;disableOutputCheck&quot;:false,&quot;help&quot;:false,&quot;version&quot;:false,&quot;showConfig&quot;:false,&quot;plugin&quot;:[&quot;./node_modules/typedoc-neo-theme&quot;],&quot;logger&quot;:&quot;console&quot;,&quot;logLevel&quot;:1,&quot;listInvalidSymbolLinks&quot;:false,&quot;links&quot;:[{&quot;label&quot;:&quot;NEAR Docs&quot;,&quot;url&quot;:&quot;https://docs.near.org&quot;},{&quot;label&quot;:&quot;API JS Quick Reference&quot;,&quot;url&quot;:&quot;https://docs.near.org/docs/develop/front-end/naj-quick-reference&quot;},{&quot;label&quot;:&quot;RPC Endpoints&quot;,&quot;url&quot;:&quot;https://docs.near.org/docs/develop/front-end/rpc&quot;}],&quot;outline&quot;:[{&quot;Connect to NEAR&quot;:{&quot;browser&quot;:&quot;browserconnect&quot;,&quot;node.js&quot;:&quot;connect&quot;},&quot;Managing Accounts&quot;:{&quot;Account&quot;:&quot;classes/account.account-1&quot;,&quot;Wallet Account&quot;:&quot;classes/walletaccount.walletconnection&quot;,&quot;Smart Contracts&quot;:&quot;classes/contract.contract-1&quot;},&quot;Managing Keys&quot;:{&quot;KeyPair&quot;:&quot;utils_key_pair&quot;,&quot;BrowserLocalStorageKeyStore&quot;:&quot;classes/key_stores_browser_local_storage_key_store.browserlocalstoragekeystore&quot;,&quot;InMemoryKeyStore&quot;:&quot;classes/key_stores_in_memory_key_store.inmemorykeystore&quot;,&quot;UnencryptedFileSystemKeyStore&quot;:&quot;classes/key_stores_unencrypted_file_system_keystore.unencryptedfilesystemkeystore&quot;,&quot;MergeKeyStore&quot;:&quot;classes/key_stores_merge_key_store.mergekeystore&quot;},&quot;RPC&quot;:{&quot;Request and Response Types&quot;:&quot;providers_provider&quot;,&quot;Client&quot;:&quot;classes/providers_json_rpc_provider.jsonrpcprovider&quot;},&quot;utils&quot;:{&quot;Formatting&quot;:&quot;utils_format&quot;}}]}-->
+		</div>
+		<div class="col-2 col-menu secondary-menu">
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class tsd-parent-kind-module root">
+						<a href="account_multisig.account2fa.html" class="tsd-kind-icon">Account2FA</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
+								<a href="account_multisig.account2fa.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#accountid" class="tsd-kind-icon">account<wbr>Id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#connection" class="tsd-kind-icon">connection</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#getcode" class="tsd-kind-icon">get<wbr>Code</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#helperurl" class="tsd-kind-icon">helper<wbr>Url</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#onaddrequestresult" class="tsd-kind-icon">on<wbr>Add<wbr>Request<wbr>Result</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#onconfirmresult" class="tsd-kind-icon">on<wbr>Confirm<wbr>Result</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#sendcode" class="tsd-kind-icon">send<wbr>Code</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#storage" class="tsd-kind-icon">storage</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#verifycode" class="tsd-kind-icon">verify<wbr>Code</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="account_multisig.account2fa.html#__signandsendtransaction" class="tsd-kind-icon">__sign<wbr>And<wbr>Send<wbr>Transaction</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#addkey" class="tsd-kind-icon">add<wbr>Key</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#createaccount" class="tsd-kind-icon">create<wbr>Account</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#createanddeploycontract" class="tsd-kind-icon">create<wbr>And<wbr>Deploy<wbr>Contract</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#deleteaccount" class="tsd-kind-icon">delete<wbr>Account</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#deletekey" class="tsd-kind-icon">delete<wbr>Key</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#deleteunconfirmedrequests" class="tsd-kind-icon">delete<wbr>Unconfirmed<wbr>Requests</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#deploycontract" class="tsd-kind-icon">deploy<wbr>Contract</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#deploymultisig" class="tsd-kind-icon">deploy<wbr>Multisig</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#disable" class="tsd-kind-icon">disable</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#fetchstate" class="tsd-kind-icon">fetch<wbr>State</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#findaccesskey" class="tsd-kind-icon">find<wbr>Access<wbr>Key</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#functioncall" class="tsd-kind-icon">function<wbr>Call</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#get2famethod" class="tsd-kind-icon">get2fa<wbr>Method</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#getaccesskeys" class="tsd-kind-icon">get<wbr>Access<wbr>Keys</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#getaccountbalance" class="tsd-kind-icon">get<wbr>Account<wbr>Balance</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#getaccountdetails" class="tsd-kind-icon">get<wbr>Account<wbr>Details</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#getcodedefault" class="tsd-kind-icon">get<wbr>Code<wbr>Default</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#getrecoverymethods" class="tsd-kind-icon">get<wbr>Recovery<wbr>Methods</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#getrequest" class="tsd-kind-icon">get<wbr>Request</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#getrequestids" class="tsd-kind-icon">get<wbr>Request<wbr>Ids</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#postsignedjson" class="tsd-kind-icon">post<wbr>Signed<wbr>Json</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#promptandverify" class="tsd-kind-icon">prompt<wbr>And<wbr>Verify</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#sendcodedefault" class="tsd-kind-icon">send<wbr>Code<wbr>Default</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#sendmoney" class="tsd-kind-icon">send<wbr>Money</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#setrequest" class="tsd-kind-icon">set<wbr>Request</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite">
+								<a href="account_multisig.account2fa.html#signandsendtransaction" class="tsd-kind-icon">sign<wbr>And<wbr>Send<wbr>Transaction</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#signandsendtransactionwithaccount" class="tsd-kind-icon">sign<wbr>And<wbr>Send<wbr>Transaction<wbr>With<wbr>Account</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-protected">
+								<a href="account_multisig.account2fa.html#signtransaction" class="tsd-kind-icon">sign<wbr>Transaction</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#signaturefor" class="tsd-kind-icon">signature<wbr>For</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#stake" class="tsd-kind-icon">stake</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#state" class="tsd-kind-icon">state</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="account_multisig.account2fa.html#verifycodedefault" class="tsd-kind-icon">verify<wbr>Code<wbr>Default</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#viewfunction" class="tsd-kind-icon">view<wbr>Function</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="account_multisig.account2fa.html#viewstate" class="tsd-kind-icon">view<wbr>State</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+					<li class=" tsd-kind-class tsd-parent-kind-module root">
+						<a href="account_multisig.accountmultisig.html" class="tsd-kind-icon">Account<wbr>Multisig</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module root">
+						<a href="../modules/account_multisig.html#multisig_allowance" class="tsd-kind-icon">MULTISIG_<wbr>ALLOWANCE</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module root">
+						<a href="../modules/account_multisig.html#multisig_change_methods" class="tsd-kind-icon">MULTISIG_<wbr>CHANGE_<wbr>METHODS</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module root">
+						<a href="../modules/account_multisig.html#multisig_confirm_methods" class="tsd-kind-icon">MULTISIG_<wbr>CONFIRM_<wbr>METHODS</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module root">
+						<a href="../modules/account_multisig.html#multisig_deposit" class="tsd-kind-icon">MULTISIG_<wbr>DEPOSIT</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module root">
+						<a href="../modules/account_multisig.html#multisig_gas" class="tsd-kind-icon">MULTISIG_<wbr>GAS</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-parent-kind-module root">
+						<a href="../modules/account_multisig.html#multisig_storage_key" class="tsd-kind-icon">MULTISIG_<wbr>STORAGE_<wbr>KEY</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
